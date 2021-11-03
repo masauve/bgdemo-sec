@@ -5,7 +5,7 @@ namespace: secdemo
 
 bases:
    - https://github.com/masauve/bgdemo/manifests/base
-
+   - https://github.com/marouim/route-kustomize/manifests/base
 patches:
   - path: patch-low-security.json
     target:
